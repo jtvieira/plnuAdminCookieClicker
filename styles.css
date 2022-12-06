@@ -1,0 +1,48 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transform: translateX(-50%);
+    
+    
+    /* width: 50%; */
+    
+}
+
+.text {
+    font-size: 80;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    max-height: auto;
+}
+#number {    
+    
+    align-self: center;
+}
+
+#face {
+    height: 200px;
+    width:auto;
+    align-self: center;
+    padding-bottom: 5px;
+}
+body {
+    background-color: rgb(204, 204, 255);
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+p {
+    font-size:xx-large
+}
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+#options {
+    max-width: 200;
+    margin-top: 15;
+    align-self: center;
+}
